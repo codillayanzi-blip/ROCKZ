@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <style>
+    body {
+      background-color: rgb(184, 218, 184);
+      text-align: center;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    h1 {
+      color: rgb(12, 126, 61);
+      margin-top: 20px;
+    }
+    h2 {
+      color: rgb(61, 112, 74);
+      margin: 10px 0 30px;
+    }
+    hr {
+      border: none;
+      height: 2px;
+      background-color: rgb(20, 128, 63);
+      border-radius: 5px;
+      width: 80%;
+      margin: 0 auto;
+    }
+    nav a {
+      color: rgb(12, 126, 61);
+      background-color: rgb(99, 230, 127);
+      padding: 8px 14px;
+      text-decoration: none;
+      margin: 0 10px;
+      border-radius: 8px;
+      transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+      display: inline-block;
+      font-weight: bold;
+    }
+    /* Hover effect (no shadow) */
+    nav a:hover {
+      background-color: rgb(12, 126, 61);
+      color: rgb(255, 255, 255);
+      transform: scale(1.08);
+    }
+    /* Click effect (no shadow) */
+    nav a:active {
+      transform: scale(0.95);
+    }
+
+    /* ✅ Additional Styles for Emphasis & Special Text */
+    mark {
+      background-color: rgba(12, 126, 61, 0.25);
+      color: rgb(12, 126, 61);
+      padding: 2px 6px;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    em {
+      color: rgb(20, 128, 63);
+      font-style: italic;
+      font-weight: bold;
+    }
+    small {
+      color: rgb(61, 112, 74);
+      font-size: 0.85em;
+      opacity: 0.9;
+    }
+    ins {
+      text-decoration: underline;
+      color: rgb(0, 90, 0);
+      background-color: rgba(99, 230, 127, 0.3);
+      padding: 1px 4px;
+      border-radius: 4px;
+    }
+    del {
+      text-decoration: line-through;
+      color: rgb(126, 0, 0);
+      background-color: rgba(126, 0, 0, 0.15);
+      padding: 1px 4px;
+      border-radius: 4px;
+    }
+    sub, sup {
+      font-size: 0.8em;
+      color: rgb(61, 112, 74);
+      opacity: 0.85;
+    }
+    img {
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>☣ My Gallery ☣</h1>
+  <hr>
+  <br><br>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html">⛧ Home ⛧</a>
+    <a href="hobbies.html">⛧ Hobbies ⛧</a>
+  </nav>
+
+  <br><br>
+
+  <!-- Gallery Items -->
+  <img src="1st.webp" alt="Young me riding an arcade motorcycle" style="width: 500px;"><br>
+  <h2><mark>Riding</mark> an arcade motorcycle 🏍</h2>
+
+  <img src="2nd.webp" alt="Me wearing a toga" style="width: 500px;">
+  <h2><ins>Attending</ins> my first graduation 🎓</h2>
+
+  <img src="3rd.webp" alt="Me playing volleyball" style="width: 300px;">
+  <h2><em>Playing</em> volleyball for fun 🏐</h2>
+
+  <img src="4th.webp" alt="Me standing and smiling" style="width: 300px;">
+  <h2>Playing <small>badminton</small> 🏸</h2>
+
+  <img src="5th.webp" alt="Me about to smash shuttlecock" style="width: 300px;">
+  <h2>Playing badminton <sub>(smash)</sub> 🏸</h2>
+
+  <img src="6th.webp" alt="Me in the mirror" style="width: 300px;">
+  <h2>Flexing my body <sup>💪</sup> 🏋️‍♂️</h2>
+
+</body>
+</html>
